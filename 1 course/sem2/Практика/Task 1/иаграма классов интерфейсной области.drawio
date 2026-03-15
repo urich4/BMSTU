@@ -1,0 +1,75 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="Страница — 1" id="TUJlzos4aKVMNTpk1XOh">
+    <mxGraphModel dx="1563" dy="1161" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vPXq-t93wOT8ohbdTDrO-1" value="QMainWindow" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vPXq-t93wOT8ohbdTDrO-5" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="60" y="250" width="620" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="vPXq-t93wOT8ohbdTDrO-2" value="MainWindow" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vPXq-t93wOT8ohbdTDrO-5">
+          <mxGeometry width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vPXq-t93wOT8ohbdTDrO-3" value="&lt;div style=&quot;forced-color-adjust: none; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; box-shadow: none !important; color: rgb(255, 255, 255); background-color: rgb(27, 29, 30);&quot;&gt;addForm *add;&amp;nbsp;QMap&amp;lt;int, dataStruct&amp;gt; database;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; box-shadow: none !important; color: rgb(255, 255, 255); background-color: rgb(27, 29, 30);&quot;&gt;&amp;nbsp;QString filePath;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; box-shadow: none !important; color: rgb(255, 255, 255); background-color: rgb(27, 29, 30);&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;bool safe = 1;&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;chartForm *graphWindow = nullptr;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vPXq-t93wOT8ohbdTDrO-5">
+          <mxGeometry y="40" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vPXq-t93wOT8ohbdTDrO-4" value="&lt;div&gt;MainWindow(QWidget *parent = nullptr);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; void readData();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; void writeData();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ~MainWindow();&lt;/div&gt;&lt;div&gt;&lt;div&gt;void resizeEvent(QResizeEvent *event) override;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; void showEvent(QShowEvent *event);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; void updateTableSize();&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;void updateTableData();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; void takeData(int number, QString name, int size,&amp;nbsp; QString date, int godnost);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; void takeDataToSearch(int number, QString name, int size,&amp;nbsp; QString date, int godnost);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; void closeEvent(QCloseEvent *event) override;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; void filterItemData();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; void filterItemSrok();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; void filterItemGodnost();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; void addTableItem(int key, const dataStruct &amp;amp;value);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; void drowGraphic();&lt;span style=&quot;background-color: transparent;&quot;&gt;void on_downloadBtn_clicked();&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; void on_createBtn_clicked();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; void on_addBtn_clicked();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; void on_saveBtn_clicked();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; void on_delBtn_clicked();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; void on_pushButton_4_clicked();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; void on_pushButton_clicked();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; void handleChartUpdate(QString productName);&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vPXq-t93wOT8ohbdTDrO-5">
+          <mxGeometry y="130" width="270" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="vPXq-t93wOT8ohbdTDrO-14" value="" style="group" vertex="1" connectable="0" parent="vPXq-t93wOT8ohbdTDrO-5">
+          <mxGeometry x="440" width="180" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="vPXq-t93wOT8ohbdTDrO-10" value="addForm" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vPXq-t93wOT8ohbdTDrO-14">
+          <mxGeometry width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vPXq-t93wOT8ohbdTDrO-11" value="&lt;div&gt;int number;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; QString name;&lt;/div&gt;&lt;div&gt;int size;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; QString date;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; int godnost;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vPXq-t93wOT8ohbdTDrO-14">
+          <mxGeometry y="40" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vPXq-t93wOT8ohbdTDrO-13" value="&lt;div&gt;void sendData(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;explicit addForm();&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ~addForm();&lt;/div&gt;&lt;div&gt;void on_pushButton_clicked();&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vPXq-t93wOT8ohbdTDrO-14">
+          <mxGeometry y="120" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="vPXq-t93wOT8ohbdTDrO-6" value="QWidget" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="707" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vPXq-t93wOT8ohbdTDrO-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.517;exitY=-0.028;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="vPXq-t93wOT8ohbdTDrO-2" target="vPXq-t93wOT8ohbdTDrO-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="240" as="sourcePoint" />
+            <mxPoint x="240" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vPXq-t93wOT8ohbdTDrO-15" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="827" y="250" width="180" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="vPXq-t93wOT8ohbdTDrO-16" value="chartForm" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vPXq-t93wOT8ohbdTDrO-15">
+          <mxGeometry width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vPXq-t93wOT8ohbdTDrO-17" value="&lt;div&gt;QLineEdit *productInput;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; QPushButton *buildButton;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; QChartView *chartView;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vPXq-t93wOT8ohbdTDrO-15">
+          <mxGeometry y="40" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vPXq-t93wOT8ohbdTDrO-18" value="void onButtonClicked();&lt;div&gt;chartForm();&lt;/div&gt;&lt;div&gt;void updateChart();&lt;/div&gt;&lt;div&gt;void requestNewData();&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vPXq-t93wOT8ohbdTDrO-15">
+          <mxGeometry y="120" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="vPXq-t93wOT8ohbdTDrO-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="vPXq-t93wOT8ohbdTDrO-10" target="vPXq-t93wOT8ohbdTDrO-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="200" />
+              <mxPoint x="767" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vPXq-t93wOT8ohbdTDrO-20" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="920" y="250" as="sourcePoint" />
+            <mxPoint x="760" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="920" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,32 @@
+# Исполняемые и бинарные файлы
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+
+# Объектные файлы промежуточной компиляции
+*.o
+*.obj
+
+# Стандартные папки сборки 
+build/
+bin/
+out/
+Debug/
+Release/
+x64/
+x86/
+cmake-build-*/
+
+# Локальные файлы настроек IDE (Visual Studio, CLion, VS Code)
+.vs/
+*.user
+.idea/
+.vscode/
+
+# Различные временные файлы и логи
+*.log
+*.tmp
+*.swp
